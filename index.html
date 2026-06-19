@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Drives</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header class="navbar">
+
+    <div class="logo">
+      ELITE DRIVES
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#links-section">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-right">
+
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="profile">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- hero-section -->
+
+  <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>ELITE DRIVES</h1>
+
+      <h3>Curated Luxury Car Collection</h3>
+
+      <p>Discover Your Dream Machine</p>
+
+      <button><a href="#collection">Browse Collection</a></button>
+
+    </div>
+
+  </section>
+
+  <!-- collection-section -->
+  <section id="collection">
+  <div class="filter-section">
+    <h2>OUR COLLECTION</h2>
+    <div class="filter-row">
+      <select id="selectbrand">
+        <option>All Brands</option>
+      </select>
+      <select id="selectmodel">
+        <option>All Models</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="our-collection" ></div>
+  <button id="ShowMoreBtn">Show More</button>
+  </section>
+  
+  <!-- featured-spotlight -->
+
+<section class="featured" id="showcase">
+
+    <h2>FEATURED SPOTLIGHT</h2>
+
+    <div class="swiper featuredSwiper">
+
+        <div class="swiper-wrapper">
+
+          <!-- slide-1 -->
+
+            <div class="swiper-slide">
+
+                <div class="featured-box">
+
+                    <div class="featured-img">
+
+                      <img src="images/vantage.jpeg" alt="">
+                    </div>
+
+                    <div class="featured-content">
+
+                        <h3>2024 Ferrari SF90 Stradale</h3>
+
+                        <p>
+                            Experience unmatched luxury, performance and futuristic
+                            design with the Ferrari SF90 Stradale.
+                        </p>
+
+                        <button>INQUIRE NOW</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- slide-2 -->
+
+            <div class="swiper-slide">
+
+                <div class="featured-box">
+
+                    <div class="featured-img">
+
+                      <img src="images/mclaren-artura.png" alt="">
+                    </div>
+
+                    <div class="featured-content">
+
+                        <h3>2023 Lamborghini Huracan</h3>
+
+                        <p>
+                            Aggressive styling combined with thrilling speed and
+                            unmatched driving excitement.
+                        </p>
+
+                        <button>INQUIRE NOW</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- slide-3 -->
+
+            <div class="swiper-slide">
+
+                <div class="featured-box">
+
+                    <div class="featured-img">
+
+                        <img src="images/carimg-1.jpeg" alt="">
+                    </div>
+
+                    <div class="featured-content">
+
+                        <h3>2024 Mercedes AMG GT</h3>
+
+                        <p>
+                            Luxury, technology and high performance blended perfectly
+                            into one powerful machine.
+                        </p>
+
+                        <button>INQUIRE NOW</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- slide-4 -->
+            <div class="swiper-slide">
+
+                <div class="featured-box">
+
+                    <div class="featured-img">
+
+                        <img src="images/car-img-2.jpeg" alt="">
+
+                    </div>
+
+                    <div class="featured-content">
+
+                        <h3>2024 Mercedes AMG GT</h3>
+
+                        <p>
+                            Luxury, technology and high performance blended perfectly
+                            into one powerful machine.
+                        </p>
+
+                        <button>INQUIRE NOW</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="swiper-pagination"></div>
+
+        
+
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+
+    </div>
+
+</section>
+
+
+
+
+
+  <!-- about section  -->
+
+  <section class="about-contact" id="about">
+
+    
+
+    <div class="about">
+
+      <h2>ABOUT US</h2>
+
+      <p>
+        Curating premium luxury vehicles for enthusiasts who value
+        performance, elegance and innovation.
+      </p>  
+
+<img src="images/elite-drive-garage.png" alt="">
+    </div>
+
+    <!-- contact section  -->
+
+    <div class="contact" >
+
+      <h2>GET IN TOUCH</h2>
+
+      <form>
+
+        <input type="text" placeholder="Name">
+
+        <input type="email" placeholder="Email">
+
+        <textarea placeholder="Message"></textarea>
+
+        <button type="submit">SUBMIT</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+
+<section class="quick-links" id="links-section">
+
+    <h2>QUICK LINKS</h2>
+
+    <div class="links-container">
+
+
+        <div class="links-column">
+
+            <h3>Company</h3>
+
+            <a href="#">
+                <i class="fa-solid fa-circle-info"></i>
+                About Us
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-car-side"></i>
+                Our Collection
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-star"></i>
+                Featured Cars
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="links-column">
+
+            <h3>Luxury Brands</h3>
+
+            <a href="#">
+                <i class="fa-solid fa-flag-checkered"></i>
+                Ferrari
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-bolt"></i>
+                McLaren
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-fire"></i>
+                Lamborghini
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-car"></i>
+                Mercedes AMG
+            </a>
+
+        </div>
+
+
+        <div class="links-column">
+
+            <h3>Support</h3>
+
+            <a href="#">
+                <i class="fa-solid fa-shield-halved"></i>
+                Privacy Policy
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-file-contract"></i>
+                Terms & Conditions
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-circle-question"></i>
+                FAQs
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-headset"></i>
+                Help Center
+            </a>
+
+        </div>
+
+
+        <div class="links-column">
+
+            <h3>Follow Us</h3>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+                Twitter
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section  -->
+  <footer>
+
+    <p>© 2026 ELITE DRIVES. All rights reserved.</p>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+// Responsive mobile menu
+
+if(hamburgerBtn && navMenu){
+  hamburgerBtn.addEventListener('click',()=>{
+    navMenu.classList.toggle('active');
+  });
+}
+
+</script>
+
+<script>
+
+    var swiper = new Swiper(".featuredSwiper", {
+
+        loop: true,
+
+        spaceBetween: 30,
+
+        centeredSlides: true,
+
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+
+        // navigation: {
+        //     nextEl: ".swiper-button-next",
+        //     prevEl: ".swiper-button-prev",
+        // },
+
+    });
+
+    const cars = {
+
+BMW: [
+  { model: "M2", image: "./images/BMW_M2.png", year: 2025, price: "$69,000", mileage: "10 kmpl" },
+  { model: "M3", image: "./images/BMW_M3.png", year: 2025, price: "$79,000", mileage: "9 kmpl" },
+  { model: "M4", image: "./images/BMW_M4.png", year: 2025, price: "$82,000", mileage: "9 kmpl" },
+  { model: "M5", image: "./images/BMW_X5.png", year: 2025, price: "$120,000", mileage: "8 kmpl" }
+],
+
+Audi: [
+  { model: "R8", image: "./images/AUDI_R8.png", year: 2023, price: "$158,000", mileage: "6 kmpl" },
+  { model: "RS5", image: "./images/AUDI_RS5.png", year: 2025, price: "$80,000", mileage: "8 kmpl" },
+  { model: "RS7", image: "./images/AUDI_RS7.png", year: 2025, price: "$128,000", mileage: "7 kmpl" },
+  { model: "Q8", image: "./images/Audi_Q8.png", year: 2025, price: "$75,000", mileage: "10 kmpl" },
+  { model: "A6", image: "./images/AUDI_A6.png", year: 2025, price: "$59,000", mileage: "12 kmpl" }
+],
+
+MercedesBenz: [
+  { model: "C63 AMG", image: "./images/C63.png", year: 2025, price: "$86,000", mileage: "8 kmpl" },
+  { model: "S Class", image: "./images/S-class.png", year: 2025, price: "$118,000", mileage: "10 kmpl" },
+  { model: "E63 AMG", image: "./images/E63.png", year: 2024, price: "$120,000", mileage: "7 kmpl" },
+  { model: "G63 AMG", image: "./images/G63.png", year: 2025, price: "$186,000", mileage: "6 kmpl" },
+  { model: "GLS", image: "./images/GLS.png", year: 2025, price: "$89,000", mileage: "9 kmpl" }
+],
+
+Ferrari: [
+  { model: "SF90 Stradale", image: "./images/ferarriSF90.png", year: 2025, price: "$524,000", mileage: "6 kmpl" },
+  { model: "F8 Tributo", image: "./images/ferarriF8.png", year: 2023, price: "$280,000", mileage: "6 kmpl" },
+  { model: "488 GTB", image: "./images/ferarriGTB.png", year: 2020, price: "$262,000", mileage: "6 kmpl" },
+  { model: "Roma", image: "./images/roma.png", year: 2025, price: "$247,000", mileage: "7 kmpl" },
+  { model: "Purosangue", image: "./images/purosangue.png", year: 2025, price: "$430,000", mileage: "6 kmpl" }
+],
+
+Lamborghini: [
+  { model: "Huracan", image: "./images/Lambo_huracane.png", year: 2024, price: "$249,000", mileage: "6 kmpl" },
+  { model: "Aventador", image: "./images/aventador.png", year: 2022, price: "$507,000", mileage: "4 kmpl" },
+  { model: "Revuelto", image: "./images/revuelto.png", year: 2025, price: "$608,000", mileage: "5 kmpl" },
+  { model: "Urus", image: "./images/urus.png", year: 2025, price: "$241,000", mileage: "7 kmpl" },
+  { model: "Gallardo", image: "./images/gallardo.png", year: 2014, price: "$200,000", mileage: "6 kmpl" }
+],
+
+Porsche: [
+  { model: "911", image: "./images/porsche_911.png", year: 2025, price: "$122,000", mileage: "10 kmpl" },
+  { model: "Cayenne", image: "./images/porsche_cayenne.png", year: 2025, price: "$84,000", mileage: "9 kmpl" },
+  { model: "Panamera", image: "./images/porsche_panamera.png", year: 2025, price: "$102,000", mileage: "9 kmpl" },
+  { model: "Macan", image: "./images/porsche_macan.png", year: 2025, price: "$64,000", mileage: "10 kmpl" },
+  { model: "Taycan", image: "./images/porsche_taycan.png", year: 2025, price: "$100,000", mileage: "Electric" }
+],
+
+Tesla: [
+  { model: "Model S", image: "./images/Tesla_ModelS.png", year: 2025, price: "$80,000", mileage: "Electric" },
+  { model: "Model 3", image: "./images/Tesla_Model3.png", year: 2025, price: "$43,000", mileage: "Electric" },
+  { model: "Model X", image: "./images/Tesla_ModelX.png", year: 2025, price: "$85,000", mileage: "Electric" },
+  { model: "Model Y", image: "./images/Tesla_ModelY.png", year: 2025, price: "$45,000", mileage: "Electric" }
+],
+
+RollsRoyce: [
+  { model: "Phantom", image: "./images/Rolls_Royce_Phantom.png", year: 2025, price: "$517,000", mileage: "4 kmpl" },
+  { model: "Ghost", image: "./images/Rolls_Royce_Ghost.png", year: 2025, price: "$357,000", mileage: "5 kmpl" },
+  { model: "Cullinan", image: "./images/Rolls_Royce_Cullinan.png", year: 2025, price: "$392,000", mileage: "5 kmpl" }
+],
+
+Bentley: [
+  { model: "Continental GT", image: "./images/continentalgt.png", year: 2025, price: "$245,000", mileage: "6 kmpl" },
+  { model: "Flying Spur", image: "./images/flying spur.png", year: 2025, price: "$225,000", mileage: "6 kmpl" },
+  { model: "Bentayga", image: "./images/bentayga.png", year: 2025, price: "$205,000", mileage: "6 kmpl" }
+],
+
+McLaren: [
+  { model: "720S", image: "./images/Mclaren _720S.png", year: 2023, price: "$310,000", mileage: "6 kmpl" },
+  { model: "750S", image: "./images/Mclaren_750S.png", year: 2025, price: "$335,000", mileage: "6 kmpl" },
+  { model: "Artura", image: "./images/mclaren_Artura.png", year: 2025, price: "$255,000", mileage: "12 kmpl" }
+],
+
+Bugatti: [
+  { model: "Chiron", image: "./images/buggati chiron.png", year: 2024, price: "$3,300,000", mileage: "1 kmpl" },
+  { model: "Veyron", image: "./images/buggati veyron.png", year: 2015, price: "$1,900,000", mileage: "1 kmpl" },
+  { model: "Mistral", image: "./images/mistral.png", year: 2025, price: "$5,000,000", mileage: "1 kmpl" }
+],
+
+AstonMartin: [
+  { model: "DB11", image: "./images/Aston_Martin_db11.png", year: 2024, price: "$220,000", mileage: "8 kmpl" },
+  { model: "DBX", image: "./images/Aston_Martin_DBX.png", year: 2025, price: "$255,000", mileage: "7 kmpl" },
+  { model: "Vantage", image: "./images/aston_martin_vantage.png", year: 2025, price: "$195,000", mileage: "8 kmpl" }
+]
+
+};
+// ...existing code...
+  
+  let selectbrand = document.querySelector("#selectbrand");
+  let selectmodel = document.querySelector("#selectmodel");
+  let carcontainer = document.querySelector(".our-collection");
+
+  selectmodel.innerHTML = '<option>All Models</option>';
+  for(let brand in cars){
+    let opt = document.createElement("option");
+    opt.value = brand;
+    opt.textContent = brand;
+    selectbrand.appendChild(opt);
+
+  }
+
+  selectbrand.addEventListener("change", function () {
+  const brand = this.value;
+  // reset models
+  selectmodel.innerHTML = '<option>All Models</option>';
+
+  if (brand && cars[brand]) {
+    cars[brand].forEach(car => {
+      const model = document.createElement("option");
+      model.value = car.model;
+      model.textContent = car.model;
+      selectmodel.appendChild(model);
+    });
+  }
+
+  // call showcars if it exists (avoids errors if function is elsewhere)
+  if (typeof showcars === "function") showcars();
+});
+
+// When model changes, re-render if showcars exists
+selectmodel.addEventListener("change", function () {
+  if (typeof showcars === "function") showcars();
+});
+
+
+// ...existing code...
+  // add rendering helpers and initial render
+  function createCard(car, brand) {
+    const card = document.createElement("div");
+    card.className = "car-card";
+
+    const img = document.createElement("img");
+    img.className = "car-image";
+    img.src = car.image;
+    img.alt = `${brand} ${car.model || ""}`;
+    // optional fallback if image path is wrong
+    img.onerror = () => { img.style.objectFit = "cover"; img.src = ""; };
+
+    const content = document.createElement("div");
+    content.className = "card-details";
+    content.innerHTML = `
+      <div class="car-name">${brand} ${car.model || ""}</div>
+      <div class="car-year">${car.year || ""}</div>
+      <div class="car-info"><div>${car.price || ""}</div><div>${car.mileage || ""}</div></div>
+      <button class="details-btn">View Details</button>
+    `;
+
+    card.appendChild(img);
+    card.appendChild(content);
+    carcontainer.appendChild(card);
+  }
+
+  function showcars() {
+    const brandvalue = (selectbrand.value || "All Brands");
+    const modelvalue = (selectmodel.value || "All Models");
+    carcontainer.innerHTML = "";
+
+    // All brands & All models
+    if (brandvalue === "All Brands" && modelvalue === "All Models") {
+      for (let b in cars) {
+        (cars[b] || []).forEach(c => createCard(c, b));
+      }
+      return;
+    }
+
+    // Specific brand, all models
+    if (brandvalue !== "All Brands" && modelvalue === "All Models") {
+      (cars[brandvalue] || []).forEach(c => createCard(c, brandvalue));
+      return;
+    }
+
+    // Specific brand + specific model
+    if (brandvalue !== "All Brands" && modelvalue !== "All Models") {
+      (cars[brandvalue] || []).forEach(c => {
+        if (c.model === modelvalue) createCard(c, brandvalue);
+      });
+      return;
+    }
+
+    // fallback: show everything
+    for (let b in cars) (cars[b] || []).forEach(c => createCard(c, b));
+  }
+
+  // initial render
+  showcars();
+// ...existing code...
+    
+
+const btn = document.querySelector("#ShowMoreBtn");
+// 
+btn.addEventListener("click",function(){
+  if(btn.textContent=== "Show More"){
+    carcontainer.style.height = "auto";
+    btn.textContent= "Show Less";
+  }
+  else{
+    carcontainer.style.height = "52rem";
+    btn.textContent= "Show More";
+  }})
+
+
+
+
+// Responsive mobile menu
+const hamburgerBtn = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-links');
+
+if(hamburgerBtn && navMenu){
+  hamburgerBtn.addEventListener('click',()=>{
+    navMenu.classList.toggle('active');
+  });
+}
+
+</script>
+
+</body>
+</html>
